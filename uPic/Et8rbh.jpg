@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta name="Content-Type" content="text/html;charset=utf-8">
+<meta name="Referrer" content="unsafe-url">
+<meta content="True" name="HandheldFriendly">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="detectify-verification" content="d0264f228155c7a1f72c3d91c17ce8fb" />
+<meta name="p:domain_verify" content="b87e3b55b409494aab88c1610b05a5f0" />
+<meta name="alexaVerifyID" content="OFc8dmwZo7ttU4UCnDh1rKDtLlY" />
+<meta name="baidu-site-verification" content="D00WizvYyr" />
+<meta name="msvalidate.01" content="D9B08FEA08E3DA402BF07ABAB61D77DE" />
+<meta property="wb:webmaster" content="f2f4cb229bda06a4" />
+<meta name="google-site-verification" content="LM_cJR94XJIqcYJeOCscGVMWdaRUvmyz6cVOqkFplaU" />
+<meta name="wwads-cn-verify" content="c8ffe9a587b126f152ed3d89a146b445" />
+<script type="text/javascript" src="https://cdn.wwads.cn/js/makemoney.js" async></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5060390720525238" crossorigin="anonymous"></script>
+<title>V2EX › shewhen</title>
+<link rel="dns-prefetch" href="https://static.v2ex.com/" />
+<link rel="dns-prefetch" href="https://cdn.v2ex.com/" />
+<link rel="dns-prefetch" href="https://i.v2ex.co/" />
+<link rel="dns-prefetch" href="https://www.google-analytics.com/" />
+<style>
+        body {
+            min-width: 820px;
+            font-family: "Helvetica Neue", "Luxi Sans", "Segoe UI", "Hiragino Sans GB", "Microsoft Yahei", sans-serif, "Apple Logo";
+        }
+    </style>
+<link rel="stylesheet" type="text/css" media="screen" href="/assets/11e37290f1407d24c1ba8224cd479bc4907e5fce-combo.css">
+<script>
+        const SITE_NIGHT = 0;
+    </script>
+<link rel="stylesheet" href="/static/css/vendor/tomorrow.css?v=3c006808236080a5d98ba4e64b8f323f" type="text/css">
+<link rel="icon" sizes="192x192" href="/static/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon-180.png?v=91e795b8b5d9e2cbf2d886c3d4b7d63c">
+<link rel="shortcut icon" href="/static/favicon.ico" type="image/png">
+<link rel="manifest" href="/manifest.webmanifest">
+<script>
+        const LANG = 'zhcn';
+        const FEATURES = ['search', 'favorite-nodes-sort'];
+    </script>
+<script src="/assets/54d4fa82a741cbd93406de31a868e840362c24c9-combo.js" defer></script>
+<meta name="description" content="shewhen&#39;s profile on V2EX">
+<link rel="alternate" type="application/atom+xml" href="/feed/member/shewhen.xml">
+<link rel="canonical" href="https://www.v2ex.com/member/shewhen">
+<script>
+	document.addEventListener("DOMContentLoaded", function(event) {
+		protectTraffic();
+
+        const topicLinks = document.getElementsByClassName('topic-link');
+for (link in topicLinks) {
+    let aLink = topicLinks[link];
+    if (!aLink.hasAttribute || !aLink.hasAttribute('href')) {
+        continue;
+    }
+    let href = aLink.getAttribute('href');
+    if (href && href.startsWith('/t/')) {
+        // href is something like "/t/1234#reply567"
+        const topicID = href.split('/')[2].split('#')[0];
+        const key = "tp" + topicID;
+        const value = lscache.get(key);
+        if (value) {
+            const anchor = href.split('#')[1];
+            const newHref = "/t/" + topicID + "?p=" + value + "#" + anchor;
+            aLink.setAttribute('href', newHref);
+            console.log("Set p for topic " + topicID + " to " + value + ": " + newHref);
+        }
+    }
+}
+	});
+</script>
+<script type="text/javascript">
+function format(tpl) {
+    var index = 1, items = arguments;
+    return (tpl || '').replace(/{(\w*)}/g, function(match, p1) {
+        return items[index++] || p1 || match;
+    });
+}
+function loadCSS(url, callback) {
+    return $('<link type="text/css" rel="stylesheet"/>')
+        .attr({ href: url })
+        .on('load', callback)
+        .appendTo(document.head);
+}
+function lazyGist(element) {
+    var $btn = $(element);
+    var $self = $(element).parent();
+    var $link = $self.find('a');
+    $btn.prop('disabled', 'disabled').text('Loading...');
+    $.getJSON(format('{}.json?callback=?', $link.prop('href').replace($link.prop('hash'), '')))
+        .done(function(data) {
+            loadCSS(data.stylesheet, function() {
+                $self.replaceWith(data.div);
+                $('.gist .gist-file .gist-meta a').filter(function() { return this.href === $link.prop('href'); }).parents('.gist-file').siblings().remove();
+            });
+        })
+        .fail(function() { $self.replaceWith($('<a>').attr('href', url).text(url)); });
+}
+</script>
+</head>
+<body>
+<div id="Top">
+<div class="content">
+<div class="site-nav">
+<a href="/" name="top" title="way to explore"><div id="Logo"></div></a>
+<div id="search-container">
+<input id="search" type="text" maxlength="128" autocomplete="off" tabindex="1">
+<div id="search-result" class="box"></div>
+</div>
+<div class="tools">
+<a href="/" class="top">首页</a>
+<a href="/signup" class="top">注册</a>
+<a href="/signin" class="top">登录</a>
+</div>
+</div>
+</div>
+</div>
+<div id="Wrapper">
+<div class="content">
+<div id="Leftbar"></div>
+<div id="Rightbar">
+<div class="sep20"></div>
+<div class="box">
+<div class="cell"><img src="/static/img/neue_comment.png" width="18" align="absmiddle" /> &nbsp;shewhen 最近的时间轴更新</div>
+<div id="statuses">
+</div>
+</div>
+<div class="sep20"></div>
+</div>
+<div id="Main">
+<div class="sep20"></div>
+<div class="box">
+<div class="cell">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td width="73" valign="top" align="center"><img src="https://cdn.v2ex.com/gravatar/985db93aca749b1df65e017c4c3642a4?s=73&d=retro" class="avatar" border="0" align="default" alt="shewhen" /><div class="sep10"></div><strong class="online">ONLINE</strong></td>
+<td width="10"></td>
+<td width="auto" valign="top" align="left">
+<div class="fr">
+</div>
+<h1 style="margin-bottom: 5px;">shewhen</h1>
+<span class="bigger"></span>
+<div class="sep10"></div>
+<span class="gray">V2EX 第 390460 号会员，加入于 2019-03-08 10:01:22 +08:00<div class="sep5"></div>今日活跃度排名 <a href="/top/dau">1472</a>
+</span>
+</td>
+</tr>
+</table>
+<div class="sep5"></div>
+</div>
+</div>
+<div class="sep20"></div>
+<div class="box">
+<div class="cell_tabs flex-one-row">
+<div>
+<img src="https://cdn.v2ex.com/gravatar/985db93aca749b1df65e017c4c3642a4?s=48&d=retro" width="24" style="border-radius: 24px; margin-top: -2px;" border="0" />
+</div>
+<div style="flex: 1;"><a href="/member/shewhen" class="cell_tab_current">shewhen</a><a href="/member/shewhen/qna" class="cell_tab">提问</a><a href="/member/shewhen/tech" class="cell_tab">技术话题</a><a href="/member/shewhen/play" class="cell_tab">好玩</a><a href="/member/shewhen/jobs" class="cell_tab">工作信息</a><a href="/member/shewhen/deals" class="cell_tab">交易信息</a><a href="/member/shewhen/city" class="cell_tab">城市相关</a></div>
+</div>
+<div class="cell item" style>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td width="auto" valign="middle"><span class="item_title"><a href="/t/1002428#reply16" class="topic-link" id="topic-link-1002428">求大佬们帮小弟瞧瞧找明年暑期实习的简历，孩子听劝！</a></span>
+<div class="sep5"></div>
+<span class="topic_info"><div class="votes"><li class="fa fa-chevron-up"></li> &nbsp;1 &nbsp;&nbsp; </div><a class="node" href="/go/cv">求职</a> &nbsp;•&nbsp; <strong><a href="/member/shewhen">shewhen</a></strong> &nbsp;•&nbsp; <span title="2023-12-29 20:07:59 +08:00">118 天前</span> &nbsp;•&nbsp; 最后回复来自 <strong><a href="/member/tuomasi">tuomasi</a></strong></span>
+</td>
+<td width="70" align="right" valign="middle">
+<a href="/t/1002428#reply16" class="count_livid">16</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="cell item" style>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td width="auto" valign="middle"><span class="item_title"><a href="/t/849706#reply3" class="topic-link" id="topic-link-849706">收 蓝牙游戏手柄，想玩 iPad 或 iPhone 的游戏</a></span>
+<div class="sep5"></div>
+<span class="topic_info"><div class="votes"></div><a class="node" href="/go/all4all">二手交易</a> &nbsp;•&nbsp; <strong><a href="/member/shewhen">shewhen</a></strong> &nbsp;•&nbsp; <span title="2022-05-09 12:33:51 +08:00">2022-05-09 12:33:51 PM</span> &nbsp;•&nbsp; 最后回复来自 <strong><a href="/member/shewhen">shewhen</a></strong></span>
+</td>
+<td width="70" align="right" valign="middle">
+<a href="/t/849706#reply3" class="count_livid">3</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="cell item" style>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td width="auto" valign="middle"><span class="item_title"><a href="/t/845558#reply0" class="topic-link" id="topic-link-845558">坚果 r2 成色 99 新，</a></span>
+<div class="sep5"></div>
+<span class="topic_info"><div class="votes"></div><a class="node" href="/go/all4all">二手交易</a> &nbsp;•&nbsp; <strong><a href="/member/shewhen">shewhen</a></strong> &nbsp;•&nbsp; <span title="2022-04-07 20:39:26 +08:00">2022-04-07 20:39:26 PM</span></span>
+</td>
+<td width="70" align="right" valign="middle">
+</td>
+</tr>
+</table>
+</div>
+<div class="inner"><span class="chevron">»</span> <a href="/member/shewhen/topics">shewhen 创建的更多主题</a></div>
+</div>
+<div class="sep20"></div>
+<div class="box">
+<div class="cell"><span class="gray">shewhen 最近回复了</span></div>
+<div class="dock_area">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="padding: 10px 15px 8px 15px; font-size: 12px; text-align: left;"><div class="fr"><span class="fade" title="2024-04-25 09:11:30 +08:00">1 天前</span> </div><span class="gray">回复了 <a href="/member/ningxiaoshi">ningxiaoshi</a> 创建的主题 <span class="chevron">›</span> <a href="/go/share">分享发现</a> <span class="chevron">›</span> <a href="/t/1035228#reply97">阿里云盘将限制在第三方应用使用下载等功能</a></span></td>
+</tr>
+</table>
+</div>
+<div class="inner">
+<div class="reply_content">@<a href="/member/tyhunter">tyhunter</a> #14 这种 EMBY 的也是白嫖的阿里云盘，之后也一样制裁了，不一定省心了</div>
+</div>
+<div class="dock_area">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="padding: 10px 15px 8px 15px; font-size: 12px; text-align: left;"><div class="fr"><span class="fade" title="2024-04-23 15:27:39 +08:00">2 天前</span> </div><span class="gray">回复了 <a href="/member/liushuji2">liushuji2</a> 创建的主题 <span class="chevron">›</span> <a href="/go/macos">macOS</a> <span class="chevron">›</span> <a href="/t/1034967#reply11">换了新 macbook，怎么对烤资料快一些</a></span></td>
+</tr>
+</table>
+</div>
+<div class="inner">
+<div class="reply_content">两台连接雷电接口，搭建雷电网络，嗖嗖的</div>
+</div>
+<div class="dock_area">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="padding: 10px 15px 8px 15px; font-size: 12px; text-align: left;"><div class="fr"><span class="fade" title="2024-04-17 22:14:45 +08:00">8 天前</span> </div><span class="gray">回复了 <a href="/member/richard881027">richard881027</a> 创建的主题 <span class="chevron">›</span> <a href="/go/apple">Apple</a> <span class="chevron">›</span> <a href="/t/797452#reply83">求推荐本地的 markdown 编辑器</a></span></td>
+</tr>
+</table>
+</div>
+<div class="inner">
+<div class="reply_content">![CleanShot 2024-04-17 at 22.13.32@2x]( <a target="_blank" href="https://fastly.jsdelivr.net/gh/52chen/imagebed2023@main/uPic/CleanShot%202024-04-17%20at%2022.13.32@2x.png" rel="nofollow noopener">https://fastly.jsdelivr.net/gh/52chen/imagebed2023@main/uPic/CleanShot%202024-04-17%20at%<span class="__cf_email__" data-cfemail="12202220203c23213c212052206a3c627c75">[email&#160;protected]</span></a>)<br/><br/>就是这里<br/><a target="_blank" href="https://fastly.jsdelivr.net/gh/52chen/imagebed2023@main/uPic/CleanShot%202024-04-17%20at%2022.13.32@2x.png" rel="nofollow noopener">https://fastly.jsdelivr.net/gh/52chen/imagebed2023@main/uPic/CleanShot%202024-04-17%20at%<span class="__cf_email__" data-cfemail="e5d7d5d7d7cbd4d6cbd6d7a5d79dcb958b82">[email&#160;protected]</span></a></div>
+</div>
+<div class="dock_area">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="padding: 10px 15px 8px 15px; font-size: 12px; text-align: left;"><div class="fr"><span class="fade" title="2024-04-17 22:13:13 +08:00">8 天前</span> </div><span class="gray">回复了 <a href="/member/richard881027">richard881027</a> 创建的主题 <span class="chevron">›</span> <a href="/go/apple">Apple</a> <span class="chevron">›</span> <a href="/t/797452#reply83">求推荐本地的 markdown 编辑器</a></span></td>
+</tr>
+</table>
+</div>
+<div class="inner">
+<div class="reply_content"><a target="_blank" href="https://i.imgur.com/gwekrSW.png" rel="nofollow noopener" target="_blank"><img src="https://i.imgur.com/gwekrSW.png" class="embedded_image" rel="noreferrer"></a> 确实，在这里可以关闭检查试试，我这关了好多了</div>
+</div>
+<div class="dock_area">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="padding: 10px 15px 8px 15px; font-size: 12px; text-align: left;"><div class="fr"><span class="fade" title="2024-04-12 14:38:28 +08:00">13 天前</span> </div><span class="gray">回复了 <a href="/member/haxixi">haxixi</a> 创建的主题 <span class="chevron">›</span> <a href="/go/career">职场话题</a> <span class="chevron">›</span> <a href="/t/1031892#reply42">公司协商解除，出去面试的时候怎么回答关于离职的问题？</a></span></td>
+</tr>
+</table>
+</div>
+<div class="inner">
+<div class="reply_content">口口口口口口，口口口口，口，口口</div>
+</div>
+<div class="dock_area">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="padding: 10px 15px 8px 15px; font-size: 12px; text-align: left;"><div class="fr"><span class="fade" title="2024-04-09 22:38:07 +08:00">16 天前</span> </div><span class="gray">回复了 <a href="/member/aboutboy">aboutboy</a> 创建的主题 <span class="chevron">›</span> <a href="/go/windows">Windows</a> <span class="chevron">›</span> <a href="/t/1030782#reply35">win10 笔记本常常无故风扇狂转，对微软很失望</a></span></td>
+</tr>
+</table>
+</div>
+<div class="inner">
+<div class="reply_content">@<a href="/member/sunrain">sunrain</a> #19 我这个 M1 竟然没得功耗这个选项 ![截屏 2024-04-09 22.37.50]( <a target="_blank" href="https://fastly.jsdelivr.net/gh/52chen/imagebed2023@main/uPic/%E6%88%AA%E5%B1%8F2024-04-09%2022.37.50.png" rel="nofollow noopener">https://fastly.jsdelivr.net/gh/52chen/imagebed2023@main/uPic/%E6%88%AA%E5%B1%8F2024-04-09%2022.37.50.png</a>)</div>
+</div>
+<div class="dock_area">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="padding: 10px 15px 8px 15px; font-size: 12px; text-align: left;"><div class="fr"><span class="fade" title="2024-03-27 22:10:23 +08:00">29 天前</span> </div><span class="gray">回复了 <a href="/member/xiaoguaiwu">xiaoguaiwu</a> 创建的主题 <span class="chevron">›</span> <a href="/go/promotions">推广</a> <span class="chevron">›</span> <a href="/t/1027174#reply79">可以看看各位大佬的 Github 首页吗， 4042 年还有人维护自己的 Github 首页吗？</a></span></td>
+</tr>
+</table>
+</div>
+<div class="inner">
+<div class="reply_content"><a target="_blank" href="https://github.com/mcxen" rel="nofollow noopener">https://github.com/mcxen</a></div>
+</div>
+<div class="dock_area">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="padding: 10px 15px 8px 15px; font-size: 12px; text-align: left;"><div class="fr"><span class="fade" title="2024-03-20 15:06:36 +08:00">36 天前</span> </div><span class="gray">回复了 <a href="/member/wuxin233">wuxin233</a> 创建的主题 <span class="chevron">›</span> <a href="/go/programmer">程序员</a> <span class="chevron">›</span> <a href="/t/1025341#reply137">夸克网盘让人见识到什么叫草台班子</a></span></td>
+</tr>
+</table>
+</div>
+<div class="inner">
+<div class="reply_content">整个 app 特别臃肿，m1 打开好几次都是卡死，闪退，完全没办法流畅用</div>
+</div>
+<div class="dock_area">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="padding: 10px 15px 8px 15px; font-size: 12px; text-align: left;"><div class="fr"><span class="fade" title="2024-03-18 14:28:50 +08:00">38 天前</span> </div><span class="gray">回复了 <a href="/member/pujx233">pujx233</a> 创建的主题 <span class="chevron">›</span> <a href="/go/apple">Apple</a> <span class="chevron">›</span> <a href="/t/1024472#reply48">iPad Air5 为啥续航这么差？</a></span></td>
+</tr>
+</table>
+</div>
+<div class="inner">
+<div class="reply_content">CPU 功耗不高，主要是 LCD 屏幕功耗高</div>
+</div>
+<div class="inner"><span class="chevron">»</span> <a href="/member/shewhen/replies">shewhen 创建的更多回复</a></div>
+</div>
+</div>
+</div>
+<div class="c"></div>
+<div class="sep20"></div>
+</div>
+<div id="Bottom">
+<div class="content">
+<div class="inner">
+<div class="sep10"></div>
+<div class="fr">
+<a href="https://www.digitalocean.com/?refcode=1b51f1a7651d" target="_blank"><div id="DigitalOcean"></div></a>
+</div>
+<strong><a href="/about" class="dark" target="_self">关于</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="/help" class="dark" target="_self">帮助文档</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="https://blog.v2ex.com/" class="dark" target="_blank">博客</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="/help/api" class="dark" target="_self">API</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="/faq" class="dark" target="_self">FAQ</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="/mission" class="dark" target="_self">我们的愿景</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="/tools" class="dark" target="_self">实用小工具</a> &nbsp; <span class="snow">·</span> &nbsp; 4693 人在线</strong> &nbsp; <span class="fade">最高记录 6543</span> &nbsp; <span class="snow">·</span> &nbsp; <a href="/select/language" class="f11"><img src="/static/img/language.png?v=6a5cfa731dc71a3769f6daace6784739" width="16" align="absmiddle" id="ico-select-language" /> &nbsp; Select Language</a>
+<div class="sep20"></div>
+创意工作者们的社区
+<div class="sep5"></div>
+World is powered by solitude
+<div class="sep20"></div>
+<span class="small fade">VERSION: 3.9.8.5 · 15ms · <a href="/worldclock#utc">UTC 05:37</a> · <a href="/worldclock#pvg">PVG 13:37</a> · <a href="/worldclock#lax">LAX 22:37</a> · <a href="/worldclock#jfk">JFK 01:37</a><br/>Developed with <a href="https://cl.v2ex.pro/" target="_blank">CodeLauncher</a><br/>♥ Do have faith in what you're doing.</span>
+<div class="sep10"></div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/b/i/Tz3vjVVukZGOD-b5ywJA1IVmENde-H7X5J7iW4O4d9i0B0mcA516rch3S2L8KrbQlZWLGKHw2MuJ812sX2Xw8orBiGm-a-qAc19YjG4tNaOrCsOc9EpdGEAxq9668oQDD-NthnCRzklJhL7S3izeZO3Opj-MRz9ap5WQJK5WQ98="></script>
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-11940834-2', 'v2ex.com');
+      ga('send', 'pageview');
+      
+ga('send', 'event', 'Member', 'profile', 'shewhen');
+
+
+    </script>
+</body>
+</html>
